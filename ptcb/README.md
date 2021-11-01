@@ -1,32 +1,21 @@
-# CPCB
+# PTCB
 
-`cpkb` is command line tool that allows copying texts to clipboard using pipe (`|`)
+`ptcb` is command line tool that allows pasting text from clipboard at runtime
 
 ### Examples
-`cat README.md | cpbk` - Copies content of `README.md` to clipboard
+`cat README.md | cpbk && echo $(ptcb)` - Copies content of `README.md` to clipboard and echoes it back to terminal
 <br />
-`docker --version | cpbk` - Copies docker version to clipboard
+`docker --version | cpbk && echo $(ptcb)` - Copies docker version to clipboard and echoes it back to terminal
 <br />
-`ls . | cpbk` - Copies content of current directory to clipboard
+`ls . | cpbk && echo $(ptcb)` - Copies content of current directory to clipboard and echoes it back to terminal
 
 ### Installation
-Download the repository using git
+1. Download the repository using git
 <br />
-`git clone https://github.com/Streamer272/cpkb.git && cd cpkb`
+`git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/ptcb`
+2. Build project
 <br />
-Build main.go
+`bash build.sh`
+3. Add to /usr/bin directory
 <br />
-`go build .`
-<br />
-
-##### Windows
-1. This PC
-2. Advanced system settings
-3. Environmental variables
-4. New
-5. Paste path to built binary
-6. Apply
-
-##### Linux
-1. `bash add-to-path.sh`
-2. Enter root password
+`bash add-to-path.sh`

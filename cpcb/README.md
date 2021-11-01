@@ -10,14 +10,12 @@
 `ls . | cpcb` - Copies content of current directory to clipboard
 
 ### Installation
-Download the repository using git
+1. Download the repository using git
 <br />
 `git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/cpcb`
-<br />
-Build project
+2. Build project
 <br />
 `bash build.sh`
-<br />
-Add to /usr/bin directory
+3. Add to /usr/bin directory
 <br />
 `bash add-to-path.sh`
