@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo "Sudo permission is needed when adding to path"
-sudo -S cp ./cpkb /usr/bin/cpkb
+sudo -S cp ./main /usr/bin/ptcb

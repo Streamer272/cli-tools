@@ -1,4 +1,4 @@
-# CPKB
+# CPCB
 
 `cpkb` is command line tool that allows copying texts to clipboard using pipe (`|`)
 

@@ -25,7 +25,7 @@ func main() {
 
 	err := clipboard.WriteAll(message)
 	if err != nil {
-		fmt.Printf("Error while writing to clipboard\n")
+		fmt.Printf("Error (%v) occurred while writing to clipboard\n", err)
 		os.Exit(1)
 	}
 }
