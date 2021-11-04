@@ -7,12 +7,14 @@
 Creates new systemctl service with name `your_service_name`, start bash script `your_bash_script_path` and description `your_service_description`
 
 ### Installation
-1. Download the repository using git
+Download the repository using git
 <br />
 `git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/nsyss`
-2. Build project
+<br />
+Build project
 <br />
 `bash build.sh`
-3. Add to /usr/bin directory
+<br />
+Add to /usr/bin directory
 <br />
 `bash add-to-path.sh`
