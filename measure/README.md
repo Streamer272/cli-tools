@@ -8,7 +8,7 @@
 ### Installation
 Download the repository using git
 <br />
-`git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/cpfc`
+`git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/measure`
 <br />
 Build project
 <br />
