@@ -1,16 +1,16 @@
 package main
 
 import (
-	"fmt"
-	"io"
-	"os"
+"fmt"
+"io"
+"os"
 )
 
 func main() {
 	if len(os.Args) != 3 {
-        fmt.Println("Usage: cpfc <source> <target>")
-        os.Exit(1)
-    }
+		fmt.Println("Usage: cpfc <source> <target>")
+		os.Exit(1)
+	}
 
 	var sourcePath, targetPath string
 	sourcePath = os.Args[1]
