@@ -1,6 +1,6 @@
 # Measure
 
-`measure <command>` is command line tool that allows copying directory content to another directory
+`measure <command>` is command line tool that allows measuring command execution time
 
 ### Examples
 `measure ./main.out` - Checks main.out execution time
