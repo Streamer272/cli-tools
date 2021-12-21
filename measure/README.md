@@ -1,6 +1,6 @@
 # Measure
 
-`measure <command>` is command line tool that allows copying directory content to another directory
+`measure <command>` is command line tool that allows measuring command execution time
 
 ### Examples
 `measure ./main.out` - Checks main.out execution time
@@ -8,7 +8,7 @@
 ### Installation
 Download the repository using git
 <br />
-`git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/cpfc`
+`git clone https://github.com/Streamer272/cli-tools.git && cd cli-tools/measure`
 <br />
 Build project
 <br />
