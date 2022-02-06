@@ -1,4 +1,4 @@
-module cpkb
+module nsyss
 
 go 1.13
 
